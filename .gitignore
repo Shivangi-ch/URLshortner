@@ -1,0 +1,68 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+*.class
+*.log
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+tmp/
+*.launch
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+*.ipr
+*.iws
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+*.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*~
+
+# Local configuration files
+application-local.yml
+application-dev.yml
+application-test.yml
+application-prod.yml
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Dependency directories
+**/target/
+**/node_modules/
+
+# Logs
+logs/
+*.log
+
+# Other files
+*.hprof
+*.log
+
+# Other IDEs
+*.idea/
+*.sublime-workspace
+*.sublime-project
